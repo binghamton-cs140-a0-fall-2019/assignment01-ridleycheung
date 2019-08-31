@@ -19,8 +19,8 @@ public class Person {
 	 * @param placeDob
 	 * @param address
 	 */
-	public Person(String fstNames, String lstNames, String ssnString, DateAndPlaceOfBirth pdob,
-			StreetUSAddress addr) {
+	public Person(String fstNames, String lstNames, String ssnString, DateAndPlaceOfBirth
+                pdob,	StreetUSAddress addr) {
 		firstNames = fstNames;
 		lastNames = lstNames;
 		var str = ssnString.trim().replace("-","");
@@ -70,4 +70,17 @@ public class Person {
 // 123 Main Street
 // Apt 1B
 // Binghamton, NY 13905
+  public DateAndPlaceOfBirth getPlaceDob() {
+    return placeDob;
+  }
+  
+  public StreetUSAddress getAddress() {
+    return address;
+  }
+  
+  public String toString() {
+    return String.format("%s %s (%s),\n%s\n%s", firstNames, lastNames, ssn,
+                         placeDob, address);
+  }
+  
 }

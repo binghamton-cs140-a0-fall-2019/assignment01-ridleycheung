@@ -1,0 +1,66 @@
+TESTS FOR Computer.java:
+Dell, hello, 64GB Memory, 128GB Solid State Drive, Price: $99.99 
+Apple, hello, 64GB Memory, 256GB Hard Drive, Price: $199.99 
+HP, hello, 64GB Memory, 1.3TB Solid State Drive, Price: $149.99 
+Toshiba, hello, 64GB Memory, 2.6TB Hard Drive, Price: $89.99 
+
+TESTS FOR ComputerOwner.java:
+Computer List, Owner: John Smith (123456789),
+Date and place of birth: 1999-01-20, New York, NY, USA
+123 Main Street
+Apt 1B
+Binghamton, NY 13902
+Computers: [Dell, hello, 64GB Memory, 128GB Solid State Drive, Price: $99.99 , Apple, hello, 64GB Memory, 256GB Hard Drive, Price: $199.99 , HP, hello, 64GB Memory, 1.3TB Solid State Drive, Price: $149.99 , Toshiba, hello, 64GB Memory, 2.6TB Hard Drive, Price: $89.99 ]
+Computer List, Owner: John Smith (123456789),
+Date and place of birth: 1999-01-20, New York, NY, USA
+123 Main Street
+Apt 1B
+Binghamton, NY 13902
+Computers: [Apple, hello, 64GB Memory, 256GB Hard Drive, Price: $199.99 , Toshiba, hello, 64GB Memory, 2.6TB Hard Drive, Price: $89.99 ]
+
+TESTS FOR DateAndPlaceOfBirth.java:
+Date and place of birth: 1999-01-20, New York, NY, USA
+Date and place of birth: 1999-01-20, Los Angeles, CA, USA
+Date and place of birth: 2000-01-20, New York, NY, USA
+Date and place of birth: 1997-08-31, London, England
+Date and place of birth: 1998-11-06, Paris, France
+true
+true
+false
+false
+false
+true
+false
+false
+false
+false
+false
+true
+false
+true
+true
+false
+false
+true
+false
+false
+
+TESTS FOR Person.java:
+John Smith (123456789),
+Date and place of birth: 1999-01-20, New York, NY, USA
+123 Main Street
+Apt 1B
+Binghamton, NY 13902
+
+TESTS FOR StreetUSAddress.java:
+123 Main Street
+Apt 1B
+Binghamton, NY 13902
+123 Main Avenue
+Binghamton, NY 13902
+
+TESTS FOR SimpleDate:
+true
+true
+false
+false
